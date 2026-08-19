@@ -4,6 +4,8 @@ A browser tool that measures pupillary distance (PD) from a photo, using a
 standard ID card as a scale reference. No app to install, no backend, no
 uploads leaving your browser.
 
+**[Live demo](https://calibre-sigma.vercel.app)**
+
 ## Why I built this
 
 My girlfriend needed to buy glasses online and had no idea how to measure
