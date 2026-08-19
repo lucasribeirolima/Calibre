@@ -1,0 +1,114 @@
+.divb {
+  display: flex;
+  flex-direction: column;
+  background: #12161c;
+  color: #edeae2;
+  padding: 24px;
+  border-radius: 16px;
+  max-width: 95%;
+  margin: 5px;
+  font-family: sans-serif;
+
+}
+
+.divc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 30px;
+  margin-bottom: 18px;
+}
+
+.upload-btn {
+  background-color: blanchedalmond;
+  border-radius: 10px;
+  padding: 10px 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.upload-btn:hover {
+  background-color: rgb(255, 197, 110);
+  cursor: pointer;
+}
+
+.imagewrap {
+  position: relative;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #2c3440;
+  cursor: crosshair;
+}
+
+.imagewrap img {
+  width: 100%;
+  display: block;
+}
+
+.marker {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  margin-left: -7px;
+  margin-top: -7px;
+  border-radius: 50%;
+  border: 2px solid #12161c;
+}
+
+.markercard {
+  background-color: #c9a15a;
+}
+
+.markerpupil {
+  background-color: #4ade9b;
+}
+
+.statusrow {
+  display: flex;
+  gap: 16px;
+  margin-top: 12px;
+  font-size: 13px;
+  color: #8d96a3;
+}
+
+.result {
+  margin-top: 18px;
+  padding: 16px;
+  background: #1b212a;
+  border: 1px solid #2c3440;
+  border-radius: 10px;
+}
+
+.resultvalue {
+  font-size: 32px;
+  font-weight: 700;
+  color: #4ade9b;
+}
+
+.marker {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  margin-left: -8px;
+  margin-top: -8px;
+  border-radius: 50%;
+  border: 2px solid #12161c;
+  cursor: grab;
+  touch-action: none;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.25);
+}
+
+.marker:active {
+  cursor: grabbing;
+  transform: scale(1.15);
+}
+
+.markercard {
+  background-color: #c9a15a;
+}
+
+.markerpupil {
+  background-color: #4ade9b;
+}
